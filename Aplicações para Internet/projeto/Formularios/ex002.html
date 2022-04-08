@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        div {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Inscrição</h1>
+    </header>
+    <main>
+        <h2>Preencha seus dados</h2>
+        <form action="">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="digite seu nome...">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="digite seu E-mail...">
+            </div>
+            <div>
+                <label for="address">Endereço:</label>
+                <input type="text" id="address" placeholder="digite seu Endereço...">
+            </div>
+            <div>
+                <label for="city">Cidade:</label>
+                <input type="text" id="city" placeholder="digite a sua cidade...">
+            </div>
+            <div>
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="digite seu telefone..." pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}" required>
+                <small>Formato: (xx) xxxxx-xxxx</small>
+            </div>
+            <div>
+                <label for="username">Usuário:</label>
+                <input type="" id="username" placeholder="digite seu usuário...">
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="minimo de 8 caracteres" minlength="8" required>
+            </div>
+            
+            <input type="submit" value="Finalizar minha inscrição">
+        </form>
+    </main>
+</body>
+</html>

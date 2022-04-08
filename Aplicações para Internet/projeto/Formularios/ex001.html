@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        div {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="cpf">Cpf:</label>
+            <input type="text" name="cpf" id="cpf"\pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \>
+            <small>Formato: xxx.xxx.xxx-xx</small>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="city"><b>Selecione uma Cidade:</b></label><br>
+            <select name="city" id="city">
+                <option value="joao-pessoa">João Pessoa</option>
+            </select>
+        </div>
+        <div>
+            <label for="courses"><b>Selecione os cursos:</b></label><br>
+            <input type="checkbox" name="courses">Android<br>
+            <input type="checkbox" name="courses">Python<br>
+            <input type="checkbox" name="courses">HTML/CSS<br>
+            <input type="checkbox" name="courses">Javascript<br>
+        </div>
+        <div>
+            <label for="age">Selecione a Faixa Etária de idade</label>
+            <input type="radio" name="age">18 à 25<br>
+            <input type="radio" name="age">26 à 30<br>
+            <input type="radio" name="age">31 à 45<br>
+            <input type="radio" name="age">45 à 61<br>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

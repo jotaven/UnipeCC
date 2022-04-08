@@ -9,3 +9,4 @@ João precisa que você faça um programa que leia a variável peso (peso de pei
 Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
 '''
 
+

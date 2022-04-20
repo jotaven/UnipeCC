@@ -3,24 +3,27 @@ programa
 	
 	funcao inicio()
 	{
-		real salario, novoSalario
-          escreva("Informe o salário: ")
-          leia(salario)
-          se(salario <= 300)
-          {
-          	novoSalario = salario*1.35
-          } senao {
-          	novoSalario = salario*1.15
-          }
-   		escreva("Novo salário: ", novoSalario)
+		real numero1, numero2
+		escreva("Digite o primeiro numero: ")
+		leia(numero1)
+		escreva("Digite o segundo numero: ")
+		leia(numero2)
+		se (numero1 > numero2) {
+			escreva(numero1, "é o maior")
+		} senao se (numero1 < numero2) {
+			escreva(numero2, " é o maior")
+		} senao {
+			escreva("Os dois são iguais")
+		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 56; 
+ * @POSICAO-CURSOR = 339; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

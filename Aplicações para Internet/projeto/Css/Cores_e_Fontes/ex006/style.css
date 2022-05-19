@@ -1,0 +1,48 @@
+body > div {
+    display: flex;
+}
+
+.t p:nth-child(1) {
+    font-weight: normal;
+}
+
+.t p:nth-child(2) {
+    font-weight: bold;
+}
+
+.t p:nth-child(3) {
+    font-weight: bolder;
+}
+
+.n {
+    padding-left: 80px;
+}    
+
+.n p:nth-child(1) {
+    font-weight: 100;
+}
+.n p:nth-child(2) {
+    font-weight: 200;
+}
+.n p:nth-child(3) {
+    font-weight: 300;
+}
+.n p:nth-child(4) {
+    font-weight: 400;
+}
+.n p:nth-child(5) {
+    font-weight: 500;
+}
+.n p:nth-child(6) {
+    font-weight: 600;
+}
+.n p:nth-child(7) {
+    font-weight: 700;
+}
+.n p:nth-child(8) {
+    font-weight: 800;
+}
+.n p:nth-child(9) {
+    font-weight: 900;
+}
+

@@ -9,4 +9,12 @@ João precisa que você faça um programa que leia a variável peso (peso de pei
 Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
 '''
 
+pesoPeixe = float(input("Digite o peso do peixe: "))
 
+if pesoPeixe >= 50:
+    excesso = pesoPeixe - 50
+    multa = 4 * excesso
+    print(f"O peso total é de {pesoPeixe}, teve um excesso de {excesso}Kg e com isso, teve uma multa de {multa:.2f} reais.")
+
+else:
+    print(f"Não haverá multa.")

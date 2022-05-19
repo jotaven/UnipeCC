@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: maroon;
+    background-color: darkorange
+}
+h2 {
+    color: rgb(255, 145, 0)
+}
+p {
+    text-align: justify
+}
+
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color:rgb(68, 68, 68)
+}

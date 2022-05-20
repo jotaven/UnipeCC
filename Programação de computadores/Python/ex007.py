@@ -8,4 +8,4 @@ elif 16 <= idade <= 20:
 elif 21 <= idade <= 25:
     print("Profissional")
 else:
-    print("deu ruim")
+    print("deu ruim...")

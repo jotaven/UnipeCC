@@ -2,7 +2,7 @@
 while True:
     codigo = int(input("Digite o codigo do produto(0 para finalizar o programa): "))
 
-    unidade = True
+    unidade = False
 
     if codigo == 0:
         break
@@ -27,6 +27,6 @@ while True:
         print("Codigo inválido")
 
 
-    if unidade != True:
+    if unidade != False:
         quantidade = int(input("Digite a quantidade adquirida: "))
         print(f"Valor total a ser pago: {unidade*quantidade:.2f}")

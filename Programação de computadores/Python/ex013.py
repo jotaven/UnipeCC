@@ -5,7 +5,7 @@ idade = 0
 while idade >= 0:
 
     idade = int(input('Digite a idade(Digite um numero negativo para finalizar): '))
-    if idade <= 15:
+    if 0 < idade <= 15:
         crianca += 1
     else:
         adulto += 1
